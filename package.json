@@ -1,0 +1,25 @@
+{
+  "name": "chatbot-book-express-openai-pg",
+  "version": "1.0.0",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node --watch index.js"
+  },
+  "keywords": [
+    "chatbot",
+    "book",
+    "express",
+    "openai",
+    "postgresql"
+  ],
+  "author": "",
+  "license": "ISC",
+  "description": "Chatbot de libros utilizando express, openai y postgresql",
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "express": "^4.21.1",
+    "openai": "^4.72.0",
+    "pg": "^8.13.1"
+  }
+}
